@@ -1,0 +1,32 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "broke ass amazon",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slickrick88/bamazon.git"
+  },
+  "keywords": [
+    "shopping",
+    "amazon",
+    "items",
+    "purchase",
+    "buy"
+  ],
+  "author": "Rick Blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slickrick88/bamazon/issues"
+  },
+  "homepage": "https://github.com/Slickrick88/bamazon#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "file-system": "^2.2.2",
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  }
+}
