@@ -21,16 +21,17 @@ INSERT INTO products (product_name, dept_name, price, stock)
 VALUES ("Moby Dick", "Books", 15, 1150);
 
 INSERT INTO products (product_name, dept_name, price, stock)
-VALUES ("Moby Dick", "Books", 15, 1150);
+VALUES ("Ties", "Books", 15, 1150);
 
 INSERT INTO products (product_name, dept_name, price, stock)
-VALUES ("Moby Dick", "Books", 15, 1150);
+VALUES ("Book2", "Books", 15, 1150);
 
 INSERT INTO products (product_name, dept_name, price, stock)
-VALUES ("Moby Dick", "Books", 15, 1150);
+VALUES ("book3", "Books", 15, 1150);
 
 INSERT INTO products (product_name, dept_name, price, stock)
 VALUES ("Harry Potter", "Books", 15, 1150);
+
 INSERT INTO products (product_name, dept_name, price, stock)
 VALUES ("Joker 1", "Books", 15, 1150);
 INSERT INTO products (product_name, dept_name, price, stock)
