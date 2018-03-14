@@ -114,12 +114,10 @@ function displayProducts() {
                 }
             ])
             .then(function (answer) {
-                console.log(answer);
                 var lookup = JSON.parse(answer.custChoice)
                 // check if qty wanted > qty on hand
                 connection.query("SELECT item_id, stock FROM products WHERE item_id = ?", [lookup.Item_id], function (err, data, fields) {
                     if (err) throw err;
-                    console.log(data)
                     if (parseInt(data[0].stock) < parseInt(answer.qty)) {
                         console.log("there is insufficient stock to execute your order.\n Please adjust and try again");
                         displayProducts();
@@ -151,11 +149,10 @@ function setupUser() {
             // based on their answer, either call the bid or the post functions
             var loginQ = "SELECT user_name FROM login_tbl WHERE ? "
             connection.query(loginQ, { user_name: answer.uLogin }, function (err, results) {
-                console.log(results);
                 if (results.length === 0) {
                     connection.query("INSERT INTO login_tbl (user_name, passwrd, user_type ) values (?, ?, ?)", [answer.uLogin, answer.uPassword, "Customer"], function (err, res2) {
                         if (err) throw err;
-                        console.log("order placed. Please visit us again");
+                        console.log("Account Setup");
                         userPrompt();
                     })
                 } else {
