@@ -7,11 +7,11 @@ execute node code
 
 select option to create a new user or login
 
-![node login](/images/Login.png)
+![node login](images/Login.PNG)
 
 if you select create user and the name already exists you will be prompted to select another user name
 
-![node login](/images/createUser.png)
+![node login](/images/createUser.PNG)
 
 If you select user you then will be prompted to select an item to purchase
 
