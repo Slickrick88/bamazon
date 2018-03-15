@@ -3,7 +3,7 @@ broke ass amazon
 
 execute node code
 
-![node login](images/executeFIle.PNG)
+![node login](images/ExecuteFIle.PNG)
 
 select option to create a new user or login
 
